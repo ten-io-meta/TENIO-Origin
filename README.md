@@ -1,6 +1,10 @@
 # 🧱 TEN.IO — Bloque Génesis
+> **Historical provenance only — not strict ERC-8060 certification.** The deployment predates the current draft ERC-8060 interface. Earlier read-only checks could not establish ERC-165 strict interface support, and this README has not demonstrated full redeemable-ETH solvency or deployed-code-to-source identity. **Burning an NFT is irreversible**; an ETH refund is a separate conditional economic effect, not a 'reversible burn'. No claim of being the first NFT/first ETH-backed NFT globally is established by this repository alone.
 
-This repository documents the origin of the first NFT contract deployed on Ethereum Mainnet with embedded ETH collateral and a reversible burn mechanism.
+**Modern reference:** [ERC-8060 strict reference draft](https://github.com/ten-io-meta/erc8060-native-eth-value/pull/5). **Historical risk review (related Fragment, separate contract):** [TENIO Fragment PR #3](https://github.com/ten-io-meta/TENIO-Fragment/pull/3). Neither PR alters this Mainnet deployment.
+
+
+This repository documents a historical TEN.IO genesis-era Ethereum Mainnet contract, including the project's early experiments with NFT/ETH-value mechanics.
 
 ## ✅ Original Contract
 
@@ -22,7 +26,7 @@ If you fork this contract, please acknowledge the origin by including:
 ```markdown
 ## 🧱 Fork Origin
 
-This contract is a fork of [TEN.IO](https://ten.io), the first NFT contract signed on Ethereum Mainnet with embedded ETH collateral and reversible burn mechanism.
+This contract is a fork of [TEN.IO](https://ten.io), a historical TEN.IO Ethereum Mainnet deployment documenting an early embedded-ETH-NFT experiment.
 
 - 📜 Original contract: [`0x8Cfc6b16B01604c83bef1e315d6693d2e7dA43Ad`](https://etherscan.io/address/0x8Cfc6b16B01604c83bef1e315d6693d2e7dA43Ad)
 - 📦 Deployed on Ethereum Mainnet, Block [`#19884434`](https://etherscan.io/block/19884434)
